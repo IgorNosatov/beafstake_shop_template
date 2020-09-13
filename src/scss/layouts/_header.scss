@@ -1,0 +1,58 @@
+.header {
+    max-width: 100%;
+}
+
+.nav-link {
+    font-family: "Roboto";
+}
+
+.header__title-logo {
+    color: $red;
+    text-shadow: 1px 1px $white;
+    text-transform: uppercase;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-left: 5px;
+    font-family: "Architects Daughter";
+}
+
+.header__best-offer-title {
+    color: $green;
+    text-transform: uppercase;
+    padding-top: 30px;
+    margin-bottom: 0.2rem !important;
+    font-family: "Architects Daughter";
+    font-size: 1.45rem;
+}
+
+.logo {
+    max-width: 120px;
+}
+
+.dropdown>.header__nav-link {
+    color: $red;
+    text-shadow: 1px 1px $white;
+    text-transform: uppercase;
+    padding: 0rem !important;
+    padding-top: 28px !important;
+    margin-bottom: 0rem !important;
+    font-family: "Architects Daughter";
+    font-size: 1.75rem;
+}
+
+@media (max-width: 991px) {
+    .desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar>.mobile {
+        display: none!important;
+    }
+}
+
+.header__login-form {
+    min-width: 250px;
+}

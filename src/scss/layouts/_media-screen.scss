@@ -1,0 +1,13 @@
+@media (max-width: 600px) {
+    .dropdown-menu-register {
+        top: 0px!important;
+    }
+    .special-offer__board {
+        max-width: 85%;
+        margin: auto;
+        height: auto;
+        background-color: $grey;
+        border-radius: 5px;
+        font-family: "Architects Daughter";
+    }
+}

@@ -1,0 +1,44 @@
+.nav-card-body {
+    background-color: $grey;
+}
+
+.card-header {
+    border-right: 1px solid $black;
+    border-left: 1px solid $black;
+}
+
+.shop-area__banner {
+    height: 500px;
+}
+
+.shop-area__title {
+    margin-top: 200px;
+}
+
+.shop-area__title,
+.shop-area__subtitle,
+.shop-area__filters-title {
+    text-shadow: 2px 2px $black;
+}
+
+@media (min-width: 515px) {
+    .shop-area__bar-mobile {
+        display: none !important;
+    }
+    .shop-area__bar-desktop {
+        background-color: $cherry;
+        padding: 5px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 514px) {
+    .shop-area__bar-desktop {
+        display: none!important;
+    }
+    .shop-area__bar-mobile {
+        background-color: $cherry;
+        padding: 5px;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,28 @@
+ul {
+    list-style-type: none!important;
+    margin: 0!important;
+    padding: 0!important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+button {
+    &:active,
+    &:focus {
+        border: none;
+        border-radius: 0rem!important;
+        outline: none !important;
+    }
+}
+
+@font-face {
+    font-family: "Architects Daughter";
+    src: url("/fonts/ArchitectsDaughter-Regular.woff2") format("woff2"), url("/fonts/ArchitectsDaughter-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-BlackItalic.woff2") format("woff2"), url("/fonts/Roboto-BlackItalic.woff") format("woff");
+}

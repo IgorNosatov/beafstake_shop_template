@@ -1,0 +1,50 @@
+.footer__top {
+    background-color: $grey;
+}
+
+.footer__mid {
+    background-color: $midnight;
+}
+
+.footer__bottom {
+    background-color: $black;
+    color: $white;
+}
+
+.footer__title {
+    color: $white;
+    text-shadow: 1px 1px $black;
+}
+
+.footer__text {
+    color: $white;
+    text-shadow: 1px 1px $black;
+}
+
+.footer__subscribe-title {
+    font-family: "Roboto";
+}
+
+.footer__menu-link {
+    .nav-item {
+        .nav-link {
+            color: $white;
+            text-shadow: 1px 1px $black;
+            font-family: "Architects Daughter";
+            text-transform: uppercase;
+            font-size: 22px;
+        }
+    }
+}
+
+.footer__posts-link {
+    .nav-item {
+        .nav-link {
+            color: $white;
+            text-shadow: 1px 1px $black;
+            font-family: "Architects Daughter";
+            text-transform: uppercase;
+            font-size: 22px;
+        }
+    }
+}

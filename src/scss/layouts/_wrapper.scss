@@ -1,0 +1,48 @@
+.categories__wrap,
+.random-products__wrap,
+.feedback__wrap,
+.footer__wrap,
+.wrapper {
+    max-width: 85%;
+    margin: auto;
+}
+
+.cart-wrapper {
+    max-width: 60%;
+    margin: auto;
+}
+
+.register-area__wrapper {
+    max-width: 65%;
+    margin: auto;
+    margin: auto;
+    background-color: $grey;
+    padding: 30px;
+}
+
+.login-area__wrapper {
+    max-width: 85%;
+    height: 400px;
+    margin: auto;
+    background-color: $grey;
+    padding: 30px;
+}
+
+.product-wrapper {
+    max-width: 65%;
+    margin: auto;
+}
+
+.special-offer__board {
+    max-width: 55%;
+    margin: auto;
+    height: auto;
+    background-color: $grey;
+    border-radius: 5px;
+    font-family: "Architects Daughter";
+}
+
+.contact-wrapper {
+    max-width: 50%;
+    margin: auto;
+}

@@ -1,0 +1,35 @@
+.product-carousel-indicators {
+    padding: 10px;
+    li {
+        height: 100px;
+        width: 100px;
+        opacity: 1 !important;
+        border: 1px solid $black;
+    }
+}
+
+.carousel-indicators {
+    margin-left: -15% !important;
+}
+
+.product__description {
+    .nav-item {
+        .nav-link {
+            text-shadow: 1px 1px $black;
+            font-size: 22px;
+            color: $cherry !important;
+        }
+    }
+}
+
+.product-area__link {
+    .nav-item {
+        .nav-link {
+            font-weight: bolder;
+            font-size: 20px;
+            color: $midnight !important;
+            font-family: "Roboto";
+            text-transform: uppercase;
+        }
+    }
+}
